@@ -14,7 +14,7 @@ class App extends Component {
     };
     this.username = "";
     this.handleLoginSubmit = this.handleLoginSubmit.bind(this);
-    this.loginUserLink = "http://13.234.18.254:5000"; ////////// node.js server link url,this will be used in other componenets as propshttp://localhost:8080
+    this.loginUserLink = "https://13.234.18.254:5000"; ////////// node.js server link url,this will be used in other componenets as propshttp://localhost:8080
   }
   render() {
     return <React.Fragment>{this.showDecide()}</React.Fragment>;
